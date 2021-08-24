@@ -1,4 +1,4 @@
- <html lang="en">
+ <html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,11 +6,12 @@
     <title>Qawameen Builders</title>
     <link rel="icon" href="images/qbuilders.jpg" type="image/gif" sizes="16x16">
     <link href="index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body>
-  <header class="bg-dark">
-    <div class="row text-warning">
+<body >
+  <header class="bg-warning" style="position: fixed;width: 100%;z-index: 1;">
+    <div class="row" style="color: black;">
         <div class="col-8 col-md-6 p-3 pl-5">
             <h2>Qawameen</h2>
         </div>
@@ -22,16 +23,16 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                   <ul class="navbar-nav  mt-2 mt-lg-0 ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link text-warning" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" style="color: black;" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-warning"  href="#">Services</a>
+                      <a class="nav-link"style="color: black;" href="#our-services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="#">Our Works</a>
+                        <a class="nav-link" style="color: black;"href="#completed-projects">Our Works</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link text-warning" href="#">Contact us</a>
+                        <a class="nav-link" style="color: black;"href="#contact-us">Contact us</a>
                       </li>
                   </ul>
                 </div>
@@ -40,7 +41,7 @@
     </div>
 
   </header>
-  <section style="background-color: black;" class="p-4">
+  <section id="home" style="background-color: black;padding-top: 10em;" >
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 col-md-6 ">
@@ -56,12 +57,12 @@
     </div>
 
   </section>
-  <section style="background-color:black" class=" p-4 ">
+  <section id="our-services" style="background-color:black" class=" p-4 ">
     <div class="container">
         <h1 class="text-center text-white" >Our services</h1>
         <div class="row pt-4">
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-4 pt-3">
+                <div class="card" >
                     <img class=" images card-img-top" src="images/constructionzaman.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Construction</h5>
@@ -70,8 +71,8 @@
                     </div>
                   </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-4 pt-3">
+                <div class="card" ">
                     <img class=" images card-img-top" src="images/qbjinterior.jpg" alt="">
                     
                     <div class="card-body">
@@ -81,8 +82,8 @@
                     </div>
                   </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-4 pt-3">
+                <div class="card" >
                     <img class=" images card-img-top" src="images/planning.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Planning</h5>
@@ -92,9 +93,9 @@
                   </div>
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+        <div class="row mt-4 ">
+            <div class="col-md-4 pt-3">
+                <div class="card" >
                     <img class=" images card-img-top" src="images/survey.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Surveying</h5>
@@ -104,8 +105,8 @@
                   </div>
             </div>
             
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-4 pt-3">
+                <div class="card">
                     <img class=" images card-img-top" src="images/supervision.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Supervision</h5>
@@ -114,8 +115,8 @@
                     </div>
                   </div>
             </div> 
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-4 pt-3">
+                <div class="card" >
                     <img class=" images card-img-top" src="images/3d.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">3D modelling</h5>
@@ -129,6 +130,142 @@
     </div>
 
   </section>
+  <section id="completed-projects" class="p-3" style="background-color: black;">
+    <div class="container">
+      <h1 class="text-center text-white">Completed projects</h1>
+      <div class="row mt-4">
+        <div class="col-md-4 pt-3">
+          <div class="card">
+              <img class=" images card-img-top" src="images/3d.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Francis road,Calicut</h5>
+                <p class="card-text">Client: Mujeeb</p>
+               
+              </div>
+            </div>
+      </div>
+
+      <div class="col-md-4 pt-3">
+        <div class="card" >
+            <img class=" images card-img-top" src="images/3d.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Malikkadavu,Calicut</h5>
+              <p class="card-text">Client: Rajeesh</p>
+             
+            </div>
+          </div>
+    </div> <div class="col-md-4 pt-3">
+      <div class="card" >
+          <img class=" images card-img-top" src="images/3d.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Arakkinar,Calicut</h5>
+            <p class="card-text">Client: Rameez</p>
+           
+          </div>
+        </div>
+  </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4 pt-3">
+          <div class="card" >
+              <img class=" images card-img-top" src="images/3d.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Vadakara,Calicut</h5>
+                <p class="card-text">Client: Mujeeb</p>
+               
+              </div>
+            </div>
+      </div>
+
+      <div class="col-md-4 pt-3">
+        <div class="card" >
+            <img class=" images card-img-top" src="images/3d.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Athanikkal,Calicut</h5>
+              <p class="card-text">Client: Rajeesh</p>
+             
+            </div>
+          </div>
+    </div>
+     <div class="col-md-4 pt-3">
+       
+      <div class="card" >
+          <img class=" images card-img-top" src="images/3d.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Arakkinar,Calicut</h5>
+            <p class="card-text">Client: Rameez</p>
+           
+          </div>
+        </div>
+        </a>
+  </div>
+      </div>
+
+    </div>
+
+  </section>
+  <section id="contact-us" class="pt-5" style="background-color: black;">
+    <div class="container">
+      <h1 class="text-center text-white" > Contact us</h1>
+      <div class="row pt-3">
+        <div class="col-md-12">
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Name</label>
+      <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Place</label>
+      <input type="text" class="form-control" id="inputPassword4" placeholder="Place">
+    </div>
+    
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Mobile</label>
+      <input type="text" class="form-control" id="inputPassword4" placeholder="Mobile">
+    </div>
+    
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Comments</label>
+    
+    <textarea cols="30" rows="10" class="form-control" placeholder="Your comments"></textarea>
+  </div>
+  
+  
+  <div class="form-group text-center">
+  <button type="submit" class="btn btn-primary" style="width: 100%;">Submit</button>
+  </div>
+</form>
+      </div>
+      </div>
+    </div>
+    
+  </section>
+  <footer class="bg-warning" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center text-white">
+          <i class="fab fa-facebook-square text-center pr-3" style="color: black;"></i>
+          <i class="fab fa-instagram  pr-3" style="color: black;"></i>
+          <i class="fab fa-linkedin  pr-3" style="color: black;"></i>
+          <i class="fab fa-twitter  pr-3" style="color: black;"></i>
+
+    <p style="color: black;">Copyright ©Qawameen Builders Pvt Ltd 2021 </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
 
     
 
