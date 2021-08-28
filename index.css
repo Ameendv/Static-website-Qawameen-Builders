@@ -1,0 +1,20 @@
+.images{
+    height: 12em;
+}
+.card-body{
+    background: black;
+    color: #ffc107;
+}
+.card-text{
+    color: white;
+}
+#address{
+    padding-left: 10em;
+    
+    color: white;
+}
+hr{
+    width: 75%;
+   background: #e79d34;
+}
+
