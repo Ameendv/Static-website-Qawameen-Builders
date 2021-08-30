@@ -9,12 +9,16 @@
     color: white;
 }
 #address{
-    padding-left: 10em;
+    padding-left: 9em;
+    
     
     color: white;
 }
 hr{
     width: 75%;
    background: #e79d34;
+}
+#contact-us{
+    color: #f1cf69;
 }
 
